@@ -550,3 +550,159 @@
     padding: 20px;
     margin: 0;
 }
+
+/* Media Queries for Responsive Design */
+
+/* For tablets and smaller screens (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    .nav-search {
+        width: 500px;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .bikes-images img,
+    .pics-images img {
+        width: 240px;
+    }
+}
+
+/* For medium-sized tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .nav-logo,
+    .nav-location,
+    .nav-signin,
+    .nav-orders,
+    .nav-cart {
+        margin: 5px;
+    }
+
+    .panel {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .panel-options {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-section {
+        justify-content: center;
+    }
+
+    .card {
+        width: 280px;
+    }
+
+    .bikes-images,
+    .pics-images,
+    .electronics-images {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bikes-images img,
+    .pics-images img {
+        width: 200px;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer-link1,
+    .footer-link2,
+    .footer-link3,
+    .footer-link4 {
+        width: 45%;
+        margin: 10px 0;
+    }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .search-select {
+        width: 30px;
+    }
+
+    .panel {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .panel-all,
+    .panel-options {
+        width: 100%;
+        justify-content: center;
+        margin: 5px 0;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .bikes-images img,
+    .pics-images img {
+        width: 100%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-link1,
+    .footer-link2,
+    .footer-link3,
+    .footer-link4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-link1 p,
+    .footer-link2 p,
+    .footer-link3 p,
+    .footer-link4 p {
+        margin-left: 0;
+    }
+
+    .footer-logo-background {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer-conditions {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+}
